@@ -5,7 +5,7 @@
 <title>Add user</title>
 </head>
 <body>
-	<form action="addPerson" method="post">
+	<form action="person/addPerson" method="post">
 		First name: <input type="text" name="firstname">
 		Last name: <input type="text" name="lastname">
 		<input type="submit" value="Save">
